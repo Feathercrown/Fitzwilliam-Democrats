@@ -1,0 +1,85 @@
+:root {
+    --dem-dark-blue: #0015BC;
+    --dem-light-blue: #00AEF3;
+    --dem-text-background-blue: #d0efff;
+    --dem-red: 
+}
+
+a:link {
+
+}
+
+a:hover {
+
+}
+
+a:visited {
+
+}
+
+a:active {
+
+}
+
+body > header,
+body > nav,
+body > main,
+body > footer {
+
+}
+
+body > header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--dem-dark-blue);
+    color: white;
+
+    height: 50px;
+}
+
+body > nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    gap: 10px;
+
+    position: sticky;
+    top: -1px;
+
+    background-color: var(--dem-dark-blue);
+}
+
+body > nav > a {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+}
+
+body > nav > a:link,
+body > nav > a:hover,
+body > nav > a:visited,
+body > nav > a:active {
+    color: white;
+}
+
+body > main {
+    height: 2000px;
+    background-color: var(--dem-text-background-blue);
+}
+
+body > footer {
+    height: 100px;
+}
+
+@media screen {
+
+}
