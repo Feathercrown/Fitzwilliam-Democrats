@@ -1,0 +1,22 @@
+.member-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.member-info > * {
+    text-align: center;
+}
+
+.member-image {
+    border-radius: 10px;
+}
+
+.member-name {
+    font-weight: bold;
+}
+
+.member-quote {
+    font-style: italic;
+}
