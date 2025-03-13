@@ -85,6 +85,8 @@ body > main {
 
 body > footer {
     height: 100px;
+    background-color: var(--dem-dark-blue);
+    color: white;
 }
 
 @media screen {
@@ -96,6 +98,10 @@ body > footer {
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+}
+
+.content-card > *:not(:last-child) {
+    margin-bottom: 10px;
 }
 
 .content-grid {
